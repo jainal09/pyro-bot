@@ -1,4 +1,8 @@
 # Pyro
+<div align="center">
+  <img src="https://github.com/jainal09/pyro-bot/assets/34179361/5d494fb4-5721-42f7-b463-cd12e8e3c86c" alt="pyro-logo" width="400"/>
+  <br>
+</div>
 
 Pyro is a chatbot that contains vectors of the entire python 3.12 documentation. Backed up by GPT 4.o ask any question
 regarding python and it will try to answer those questions thanks to the Weviate vector database and Langchain based RAG
