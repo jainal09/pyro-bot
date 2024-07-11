@@ -11,15 +11,14 @@ from langchain.prompts import (
 )
 from langchain.schema import HumanMessage, SystemMessage
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from unstructured.partition.pdf import partition_pdf
 from langchain.vectorstores.weaviate import Weaviate
+from unstructured.partition.pdf import partition_pdf
 
 
 class FilesService:
     @staticmethod
     def _openai_streamer(retr_qa: RetrievalQA, text: str):
-        for resp in retr_qa.run(text):
-            yield resp
+        yield from retr_qa.run(text)
 
     @staticmethod
     async def query(question, temperature, n_docs, vectorstore: Weaviate):

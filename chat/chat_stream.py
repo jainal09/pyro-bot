@@ -1,6 +1,7 @@
 import os
-import streamlit as st
+
 import requests
+import streamlit as st
 
 base_url = f'http://{os.environ.get("FASTAPI_HOST", "localhost")}:{os.environ.get("FASTAPI_PORT", "8000")}/files'
 

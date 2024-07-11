@@ -4,6 +4,8 @@
   <br>
 </div>
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Dependency Management: Poetry](https://img.shields.io/badge/Dependency%20Managment-Poetry-blue?logo=python&logoColor=yellow)](https://python-poetry.org/) [![Formatter and Linter: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![python: 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
+
 Pyro is a chatbot that contains vectors of the entire python 3.12 documentation. Backed up by GPT 4.o ask any question
 regarding python and it will try to answer those questions thanks to the Weviate vector database and Langchain based RAG
 pipeline.

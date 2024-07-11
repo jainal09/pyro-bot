@@ -3,8 +3,8 @@ import os
 
 import uvicorn
 from fastapi import FastAPI
-from .routers import files
 
+from .routers import files
 
 logger = logging.getLogger(__name__)
 
