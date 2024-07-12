@@ -10,6 +10,10 @@ Pyro is a chatbot that contains vectors of the entire python 3.12 documentation.
 regarding python and it will try to answer those questions thanks to the Weviate vector database and Langchain based RAG
 pipeline.
 
+## Demo Video 📺
+Click on the image below to watch the demo video on YouTube:
+
+[![Youtube Video](https://img.youtube.com/vi/OK6J-1NPIxM/0.jpg)](https://www.youtube.com/watch?v=OK6J-1NPIxM)
 
 ## Sneak Peak
 
