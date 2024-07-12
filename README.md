@@ -10,6 +10,12 @@ Pyro is a chatbot that contains vectors of the entire python 3.12 documentation.
 regarding python and it will try to answer those questions thanks to the Weviate vector database and Langchain based RAG
 pipeline.
 
+
+## Sneak Peak
+
+https://github.com/user-attachments/assets/1d90bd17-0b6e-4ca6-86a2-94ac94bdca21
+
+
 ## Motivation
 I noticed that there aren't many examples on how to deploy via docker compose
 a **FastAPI** backend  backed by a self-hosted **Weaviate** vector store, and a streamlit chat application.  
