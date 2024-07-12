@@ -13,7 +13,10 @@ pipeline.
 
 ## Sneak Peak
 
-https://github.com/user-attachments/assets/1d90bd17-0b6e-4ca6-86a2-94ac94bdca21
+
+
+https://github.com/user-attachments/assets/ec12c0b7-1278-4f6a-abb3-ef030617c3cc
+
 
 
 ## Motivation
