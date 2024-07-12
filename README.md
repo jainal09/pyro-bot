@@ -26,7 +26,7 @@ The API exposes 2 endpoints:
 - **/files/query**: a GET with a question to ask based on the uploaded
   documents. The response will be streamed back to the user.
 
-### 1) Set the environment
+### Setting the environment
 
 Create a .env in the project root folder in order to set up the environment variables:
 
@@ -48,9 +48,9 @@ they are, you just need to set **OPENAI_DEPLOYMENT_NAME**, **OPEN_API_KEY** & **
 with the values you can find on the Azure dashboard of your
 Azure Open AI resource deployment.
 
-### 2) Docker compose
+### Starting Services
 
-```shell
+```text
 docker compose up --build
 ```
 
@@ -79,3 +79,13 @@ You can go to this endpoint to access the chat app.
 ```text
 http://localhost:8501
 ```
+
+### Lint
+Lint the code using ruff:
+
+```text
+ruff check --fix .
+```
+
+## Dataset
+The pdf folder contains the entire python 3.12 documentation. Upload each pdf through the streamlit UI to index it to the vector db.
