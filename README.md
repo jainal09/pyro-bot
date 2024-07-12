@@ -17,11 +17,7 @@ Click on the image below to watch the demo video on YouTube:
 
 ## Sneak Peak
 
-
-
-https://github.com/user-attachments/assets/ec12c0b7-1278-4f6a-abb3-ef030617c3cc
-
-
+https://github.com/user-attachments/assets/b6af98c8-ba10-4f52-8202-287c69bd42bf
 
 ## Motivation
 I noticed that there aren't many examples on how to deploy via docker compose
