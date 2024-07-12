@@ -21,5 +21,6 @@ jobs:
         poetry install
     - name: Analysing the code with pylint
       run: |
-        poetry ruff check .
+        poetry shell
+        ruff check .
       
