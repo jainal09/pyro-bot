@@ -22,9 +22,9 @@ def context_precision(query, retrieved_context, relevant_contexts):
             {
                 "role": "system",
                 "content": """
-             We are evaluating a RAG Pipeline. You will get the user query, 
+             We are evaluating a RAG Pipeline. You will get the user query,
             list of retrieved_context and a list of relevant_contexts.
-             You need to calculate the context_precision. The context_precision is the 
+             You need to calculate the context_precision. The context_precision is the
              Measure how accurately the retrieved context matches the user's query.
             """,
             },
@@ -54,7 +54,7 @@ def context_recall(query, retrieved_context, relevant_contexts):
                 "content": """
              We are evaluating a RAG Pipeline. You will get query, the list of retrieved_context and a list of \
             relevant_contexts.
-             You need to calculate the context_recall. The context_recall is the 
+             You need to calculate the context_recall. The context_recall is the
              Evaluate the ability to retrieve all relevant contexts for the user's query.
             """,
             },
@@ -83,7 +83,7 @@ def context_relevance(retrieved_context, query):
                 "role": "system",
                 "content": """
              We are evaluating a RAG Pipeline. You will get the retrieved_context and the user query.
-             You need to calculate the context_relevance. The context_relevance is the 
+             You need to calculate the context_relevance. The context_relevance is the
              Assess the relevance of the retrieved context to the user's query.
             """,
             },
