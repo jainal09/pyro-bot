@@ -98,3 +98,12 @@ ruff check --fix .
 
 ## Dataset
 The pdf folder contains the entire python 3.12 documentation. Upload each pdf through the streamlit UI to index it to the vector db.
+
+To index all the pdfs run the following script:
+
+```text
+poetry run index_dataset.py
+```
+
+## Metrics
+Refer to the documentation in [evaluation_metrics/README.md](evaluation_metrics/README.md)

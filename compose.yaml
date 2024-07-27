@@ -12,6 +12,8 @@ services:
       - t2v-transformers
     ports:
       - '${FASTAPI_PORT}:${FASTAPI_PORT}'
+    volumes:
+      - ./pdfs:/app/pdfs
     restart: "on-failure"
   streamlit:
     env_file: .env
