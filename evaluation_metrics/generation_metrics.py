@@ -13,7 +13,7 @@ def query_api(question, temperature=0.7, n_docs=10):
     start_time = time.time()
     response = query_rag(question, temperature=temperature, n_docs=n_docs)
     latency = time.time() - start_time
-    return preprocess_markdown(response.text), latency
+    return preprocess_markdown(response), latency
 
 def faithfulness(generated_answer, ground_truth):
     """Measure the accuracy and reliability of the generated answers."""
