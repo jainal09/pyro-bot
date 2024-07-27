@@ -4,16 +4,14 @@ from urllib.parse import quote
 import numpy as np
 import requests
 from evaluation_metrics.open_ai_service import query_openai
-from evaluation_metrics.retrieval_metrics import preprocess_markdown
+from evaluation_metrics.retrieval_metrics import preprocess_markdown, query_api as query_rag
 from tqdm import tqdm
 
 
 def query_api(question, temperature=0.7, n_docs=10):
     """Query the API and return the markdown response and latency."""
-    url = f"http://localhost:8000/files/query?question={quote(question)}&temperature={temperature}&n_docs={n_docs}"
     start_time = time.time()
-    response = requests.get(url, headers={'accept': 'application/json'}, stream=True)
-    response.raise_for_status()
+    response = query_rag(question, temperature=temperature, n_docs=n_docs)
     latency = time.time() - start_time
     return preprocess_markdown(response.text), latency
 
