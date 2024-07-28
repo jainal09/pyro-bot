@@ -1,10 +1,9 @@
 import time
-from urllib.parse import quote
 
 import numpy as np
-import requests
 from evaluation_metrics.open_ai_service import query_openai
-from evaluation_metrics.retrieval_metrics import preprocess_markdown, query_api as query_rag
+from evaluation_metrics.retrieval_metrics import preprocess_markdown
+from evaluation_metrics.retrieval_metrics import query_api as query_rag
 from tqdm import tqdm
 
 
