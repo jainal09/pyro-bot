@@ -11,9 +11,18 @@ regarding python and it will try to answer those questions thanks to the Weviate
 pipeline.
 
 ## Demo Video 📺
+
+### Introduction
+
 Click on the image below to watch the demo video on YouTube:
 
 [![Youtube Video](https://img.youtube.com/vi/OK6J-1NPIxM/0.jpg)](https://www.youtube.com/watch?v=OK6J-1NPIxM)
+
+### Complete Presentation
+[![Youtube Video](https://img.youtube.com/vi/34xLpdBvdQg&t=12s/0.jpg)](https://www.youtube.com/watch?v=34xLpdBvdQg&t=12s)
+
+
+
 
 ## Sneak Peak
 
