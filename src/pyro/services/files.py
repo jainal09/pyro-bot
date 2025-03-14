@@ -23,7 +23,7 @@ class FilesService:
     @staticmethod
     async def query(question, temperature, n_docs, vectorstore: Weaviate):
         llm = AzureChatOpenAI(
-            deployment_name=os.environ.get("DEPLOYMENT_NAME"),
+            deployment_name=os.environ.get("OPENAI_DEPLOYMENT_NAME"),
             openai_api_base=os.environ.get("OPENAI_API_BASE"),
             openai_api_version=os.environ.get("OPENAI_API_VERSION", "2024-02-01"),
             openai_api_key=os.environ.get("OPENAI_API_KEY"),
