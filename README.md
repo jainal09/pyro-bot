@@ -50,15 +50,16 @@ Create a .env in the project root folder in order to set up the environment vari
 
 ```text
 WEAVIATE_SERVICE_NAME=weaviate
+FASTAPI_HOST=api
 FASTAPI_PORT=8000
 WEAVIATE_PORT=8080
-WEAVIATE_COLLECTION = Document
-WEAVIATE_DROP_COLLECTION = False
-OPENAI_API_TYPE = azure
-OPENAI_API_VERSION = 2023-07-01-preview
+WEAVIATE_COLLECTION=Document
+WEAVIATE_DROP_COLLECTION=False
+OPENAI_API_TYPE=azure
+OPENAI_API_VERSION=2023-07-01-preview
 OPENAI_DEPLOYMENT_NAME=
-OPENAI_API_KEY = 
-OPENAI_API_BASE =
+OPENAI_API_KEY= 
+OPENAI_API_BASE=
 ```
 
 If those ports are not in use then you can leave these variables as
