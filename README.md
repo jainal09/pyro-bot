@@ -1,4 +1,5 @@
 # Pyro
+
 <div align="center">
   <img src="https://github.com/jainal09/pyro-bot/assets/34179361/5d494fb4-5721-42f7-b463-cd12e8e3c86c" alt="pyro-logo" width="400"/>
   <br>
@@ -19,20 +20,22 @@ Click on the image below to watch the demo video on YouTube:
 [![Youtube Video](https://img.youtube.com/vi/OK6J-1NPIxM/0.jpg)](https://www.youtube.com/watch?v=OK6J-1NPIxM)
 
 ### Complete Presentation
+
 [![Youtube Video](https://img.youtube.com/vi/34xLpdBvdQg/0.jpg)](https://www.youtube.com/watch?v=34xLpdBvdQg)
 
 ### Finetuning Presentation
+
 [![Youtube Video](https://img.youtube.com/vi/c8SKj5n0fDY/0.jpg)](https://www.youtube.com/watch?v=c8SKj5n0fDY)
 
 ## Sneak Peak
 
-https://github.com/user-attachments/assets/b6af98c8-ba10-4f52-8202-287c69bd42bf
+<https://github.com/user-attachments/assets/b6af98c8-ba10-4f52-8202-287c69bd42bf>
 
 ## Motivation
+
 I noticed that there aren't many examples on how to deploy via docker compose
 a **FastAPI** backend  backed by a self-hosted **Weaviate** vector store, and a streamlit chat application.  
 The interaction with Azure OpenAI happens through **langchain**.
-
 
 ## Quickstart
 
@@ -100,6 +103,7 @@ http://localhost:8501
 ```
 
 ### Lint
+
 Lint the code using ruff:
 
 ```text
@@ -107,6 +111,7 @@ ruff check --fix .
 ```
 
 ## Dataset
+
 The pdf folder contains the entire python 3.12 documentation. Upload each pdf through the streamlit UI to index it to the vector db.
 
 To index all the pdfs run the following script:
@@ -116,6 +121,7 @@ poetry run index_dataset.py
 ```
 
 ## Metrics
+
 Refer to the documentation in [evaluation_metrics/README.md](evaluation_metrics/README.md)
 
 <h2 align="left">Connect with me:</h2>
