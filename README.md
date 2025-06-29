@@ -126,6 +126,6 @@ Refer to the documentation in [evaluation_metrics/README.md](evaluation_metrics/
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
-<a href="https://twitter.com/jainal_gosaliya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jainal_gosaliya" height="30" width="40" /></a>
+<a href="https://x.com/SysSniper" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jainal_gosaliya" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/jainal-gosaliya-75baa714a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/jainal-gosaliya-75baa714a/" height="30" width="40" /></a>
 </p>
